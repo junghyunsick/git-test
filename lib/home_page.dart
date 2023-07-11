@@ -2,6 +2,10 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'second.dart';
 import 'feed.dart';
+import 'first.dart';
+import 'third.dart';
+import 'fourth.dart';
+import 'fifth.dart';
 
 class HomePage extends StatelessWidget {
   const HomePage({super.key});
@@ -17,10 +21,10 @@ class HomePage extends StatelessWidget {
     ];
     final List<String> productNames = [
       "이름: 정현식",
-      "이름:정선호",
-      "이름:권경운",
-      "이름:장재용",
-      "이름:한상철",
+      "이름: 정선호",
+      "이름: 권경운",
+      "이름: 장재용",
+      "이름: 한상철",
     ];
     final List<String> Sports = [
       "취미: 농구하기",

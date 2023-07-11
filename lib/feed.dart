@@ -1,6 +1,10 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'second.dart';
+import 'first.dart';
+import 'third.dart';
+import 'fourth.dart';
+import 'fifth.dart';
 
 class Feed extends StatefulWidget {
   const Feed({
@@ -77,7 +81,7 @@ class _FeedState extends State<Feed> {
                       Navigator.push(
                         context,
                         MaterialPageRoute(
-                          builder: (context) => DetailPage(),
+                          builder: (context) => SecondPage(),
                         ),
                       );
                     },

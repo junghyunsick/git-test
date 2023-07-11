@@ -1,8 +1,8 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
-class SecondPage extends StatelessWidget {
-  SecondPage({super.key});
+class FirstPage extends StatelessWidget {
+  FirstPage({super.key});
 
   TextEditingController contentController = TextEditingController();
 
@@ -28,7 +28,7 @@ class SecondPage extends StatelessWidget {
                   borderRadius: BorderRadius.circular(5),
                   // 이미지
                   child: Image.network(
-                    "https://ifh.cc/g/kDaKF7.jpg",
+                    "https://ifh.cc/g/tVyHZn.jpg",
                     width: 200,
                     height: 245,
                     fit: BoxFit.cover,

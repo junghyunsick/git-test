@@ -2,6 +2,10 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'second.dart';
 import 'home_page.dart';
+import 'first.dart';
+import 'third.dart';
+import 'fourth.dart';
+import 'fifth.dart';
 
 void main() {
   runApp(MyApp());
@@ -13,7 +17,11 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final List<String> images = [
-      "https://i.namu.wiki/i/ZK5KQRHUtu4xDpDJkYGimSK6rzlG1H-LNGeMb9se6XWZcmx4GXSMvwKe946EaCXzIwX2wCibID24I1WKTgwPkeVfBP_5U2DCfIWl1tX_Xq8hXdNYY1yafieuSyZiS9EW3S_0lzcBTDTH41scRtysaA.webp"
+      "https://ifh.cc/g/kDaKF7.jpg",
+      "https://ifh.cc/g/tVyHZn.jpg",
+      "https://ifh.cc/g/LsrBHx.jpg",
+      "https://ifh.cc/g/28FsqF.jpg",
+      "https://ifh.cc/g/1xXkcs.jpg",
     ];
     return MaterialApp(
       debugShowCheckedModeBanner: false,
