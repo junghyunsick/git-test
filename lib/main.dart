@@ -19,7 +19,7 @@ class MyApp extends StatefulWidget {
 }
 
 class _MyAppState extends State<MyApp> {
-  List<String> memoList = ['더보기']; // 전체 메모 목록
+// 전체 메모 목록
 
   @override
   Widget build(BuildContext context) {

@@ -64,7 +64,7 @@ class HomePage extends StatelessWidget {
       body: Padding(
         padding: const EdgeInsets.symmetric(horizontal: 16),
         child: ListView.separated(
-          itemCount: images.length, // 이미지 개수만큼 보여주기
+          itemCount: 1, // 이미지 개수만큼 보여주기
           itemBuilder: (context, index) {
             final image = images[index];
             final productName = productNames[index];
