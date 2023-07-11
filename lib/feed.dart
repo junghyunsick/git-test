@@ -73,35 +73,163 @@ class _FeedState extends State<Feed> {
                   color: Colors.black,
                 ),
               ),
-              Row(
+              Column(
                 children: [
-                  Spacer(),
-                  GestureDetector(
-                    onTap: () {
-                      Navigator.push(
-                        context,
-                        MaterialPageRoute(
-                          builder: (context) => SecondPage(),
+                  Row(
+                    children: [
+                      Spacer(),
+                      GestureDetector(
+                        onTap: () {
+                          Navigator.push(
+                            context,
+                            MaterialPageRoute(
+                              builder: (context) => FirstPage(),
+                            ),
+                          );
+                        },
+                        child: Row(
+                          children: [
+                            Icon(
+                              CupertinoIcons.plus,
+                              color: Colors.black,
+                              size: 16,
+                            ),
+                            Text(
+                              '더보기',
+                              style: TextStyle(color: Colors.black),
+                            ),
+                          ],
                         ),
-                      );
-                    },
-                    child: Row(
-                      children: [
-                        Icon(
-                          CupertinoIcons.plus,
-                          color: Colors.black,
-                          size: 16,
+                      )
+                      // 빈 칸
+                      // 하트 아이콘
+                      // '1'
+                    ],
+                  ),
+                  Row(
+                    children: [
+                      Spacer(),
+                      GestureDetector(
+                        onTap: () {
+                          Navigator.push(
+                            context,
+                            MaterialPageRoute(
+                              builder: (context) => SecondPage(),
+                            ),
+                          );
+                        },
+                        child: Row(
+                          children: [
+                            Icon(
+                              CupertinoIcons.plus,
+                              color: Colors.black,
+                              size: 16,
+                            ),
+                            Text(
+                              '더보기',
+                              style: TextStyle(color: Colors.black),
+                            ),
+                          ],
                         ),
-                        Text(
-                          '더보기',
-                          style: TextStyle(color: Colors.black),
+                      )
+                      // 빈 칸
+                      // 하트 아이콘
+                      // '1'
+                    ],
+                  ),
+                  Row(
+                    children: [
+                      Spacer(),
+                      GestureDetector(
+                        onTap: () {
+                          Navigator.push(
+                            context,
+                            MaterialPageRoute(
+                              builder: (context) => ThirdPage(),
+                            ),
+                          );
+                        },
+                        child: Row(
+                          children: [
+                            Icon(
+                              CupertinoIcons.plus,
+                              color: Colors.black,
+                              size: 16,
+                            ),
+                            Text(
+                              '더보기',
+                              style: TextStyle(color: Colors.black),
+                            ),
+                          ],
                         ),
-                      ],
-                    ),
-                  )
-                  // 빈 칸
-                  // 하트 아이콘
-                  // '1'
+                      )
+                      // 빈 칸
+                      // 하트 아이콘
+                      // '1'
+                    ],
+                  ),
+                  Row(
+                    children: [
+                      Spacer(),
+                      GestureDetector(
+                        onTap: () {
+                          Navigator.push(
+                            context,
+                            MaterialPageRoute(
+                              builder: (context) => FourthPage(),
+                            ),
+                          );
+                        },
+                        child: Row(
+                          children: [
+                            Icon(
+                              CupertinoIcons.plus,
+                              color: Colors.black,
+                              size: 16,
+                            ),
+                            Text(
+                              '더보기',
+                              style: TextStyle(color: Colors.black),
+                            ),
+                          ],
+                        ),
+                      )
+                      // 빈 칸
+                      // 하트 아이콘
+                      // '1'
+                    ],
+                  ),
+                  Row(
+                    children: [
+                      Spacer(),
+                      GestureDetector(
+                        onTap: () {
+                          Navigator.push(
+                            context,
+                            MaterialPageRoute(
+                              builder: (context) => FifthPage(),
+                            ),
+                          );
+                        },
+                        child: Row(
+                          children: [
+                            Icon(
+                              CupertinoIcons.plus,
+                              color: Colors.black,
+                              size: 16,
+                            ),
+                            Text(
+                              '더보기',
+                              style: TextStyle(color: Colors.black),
+                            ),
+                          ],
+                        ),
+                      )
+                      // 빈 칸
+                      // 하트 아이콘
+                      // '1'
+                    ],
+                  ),
                 ],
               ),
             ],
